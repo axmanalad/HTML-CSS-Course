@@ -1,0 +1,1 @@
+Lesson 1 is about HTML basics (Important to know about)

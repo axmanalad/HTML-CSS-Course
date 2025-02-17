@@ -1,0 +1,1 @@
+Lesson 2 is about CSS Basics (Important to know about)
