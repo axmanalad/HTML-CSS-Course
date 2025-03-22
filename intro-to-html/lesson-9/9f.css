@@ -1,0 +1,43 @@
+div {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+p {
+  margin-left: 10px;
+  font-family: Arial;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.friend-count {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.add-friend-button {
+  background-color: rgb(0, 88, 204);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

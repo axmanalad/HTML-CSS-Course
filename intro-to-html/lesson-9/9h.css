@@ -1,0 +1,37 @@
+div {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 15px;
+  display: inline-block;
+}
+
+.search-box {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 12px 15px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  outline: none;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding: 12px 15px;
+  font-size: 16px;
+  font-family: Arial;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.search-button {
+  margin: 0 10px;
+}
