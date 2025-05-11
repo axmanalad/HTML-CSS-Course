@@ -1,0 +1,98 @@
+<!--Flexbox Exercises-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L12</title>
+
+    <style>
+      .h3 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .p {
+        margin-top: 0px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Flexbox Exercises <br>Lesson 12-A</h3>
+    <p>
+      Create a flexbox with 2 items. Widths = 200px | 75px.
+    </p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+      ">
+      <div style="
+        background-color: lightblue;
+        width: 200px;
+      ">200px</div>
+      <div style="
+        background-color: lightpink;
+        width: 75px;
+      ">75px</div>
+    </div>
+
+    <h3>Leson 12-B</h3>
+    <p>
+      A flexbox with 3 items. Widths = 50px | remaining space | 75px.
+    </p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+      ">
+      <div style="
+        background-color: lightblue;
+        width: 50px;
+      ">item1</div>
+      <div style="
+        background-color: lightpink;
+        flex: 1;
+      ">item2</div>
+      <div style="
+        background-color: lightblue;
+        width: 75px;
+      ">item3</div>
+    </div>
+
+    <h3>Leson 12-C</h3>
+    <p>
+      A flexbox with 4 items, spread evenly across the page.
+    </p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      ">
+      <div style="background-color: lightpink;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+      <div style="background-color: lightpink;">item3</div>
+      <div style="background-color: lightpink;">item4</div>
+    </div>
+
+    <h3>Leson 12-D</h3>
+    <p>
+      Create the flexbox below with the height = 50px and a gray border
+    </p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        height: 50px;
+        align-items: center;
+      ">
+      <div style="background-color: lightpink;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+    </div>
+  </body>
+</html>
