@@ -1,0 +1,81 @@
+body {
+  font-family: Arial;
+}
+
+.container {
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-container {
+  margin-left: 10px;
+  display: flex;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.profile-handle {
+  color: gray;
+}
+
+.tweet-text {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.tweet-embed {
+  border-color: rgb(201, 201, 201);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tweet-embed-image {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(221, 221, 221);
+  margin-right: 10px;
+}
+
+.tweet-embed-info {
+  flex: 1;
+}
+
+.tweet-embed-website {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.tweet-embed-title {
+  line-height: 22px;
+}

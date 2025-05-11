@@ -1,0 +1,90 @@
+<!--Nested Flexbox Exercises-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L13</title>
+
+    <style>
+      .h3 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .p {
+        margin-top: 0px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Flexbox Exercises <br>Lesson 13-A</h3>
+    <p>
+      Create a flexbox with 2 elements (width 100px and 200px). Then make the first element a flexbox.
+    </p>
+    <div style="
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    ">
+      <div style="
+        background-color: lightpink;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;;
+
+      ">
+        <div style="
+          background-color: black;
+          color: white;
+        ">
+          item1
+        </div>
+      </div>
+      <div style="
+        background-color: lightblue;
+        width: 200px;
+      "></div>
+    </div>
+
+    <h3>Lesson 13-B</h3>
+    <p>
+      Similar to exercise 13a. use nested flexbox (flexbox inside flexbox) to create the design.
+    </p>
+    <div style="
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    ">
+      <div style="
+        background-color: lightpink;
+        width: 100px;
+      "></div>
+      <div style="
+        background-color: lightblue;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+      ">
+        <div>
+          row1
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+          <div style="
+          background-color: black;
+          color: white;
+          ">
+            row2
+          </div>
+          <div style="
+          background-color: black;
+          color: white;
+          ">
+            row2
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
