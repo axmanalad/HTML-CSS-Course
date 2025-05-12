@@ -1,0 +1,73 @@
+<!--Position Fixed Exercises-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L14-D</title>
+
+    <style>
+      .h3 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .p {
+        margin-top: 0px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+
+  <body style="height: 3000px;">
+    <h3>Position Fixed Exercises<br>Lesson 14-D</h3>
+    <p>
+      - Create an element that covers the entire page with a transparent overlay<br>
+      - Then make the overlay a flexbox and center its contents horizontally and vertically<br>
+      - Add a "div" in the overlay and create the modal.
+    </p>
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        width: 100px;
+    ">right sidebar</div>
+
+    <!--Overlay-->
+    <div style="
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      ">
+      <!--Modal-->
+      <div style="
+        background-color: white;
+        width: 300px;
+        padding: 15px;
+        border-radius: 5px;
+        ">
+        <div style="
+          font-weight: bold;
+          font-size: 20px;
+          margin-bottom: 10px;
+          ">Modal Title
+        </div>
+        <div style="
+          margin-bottom: 10px;
+          ">This is a modal
+        </div>
+        <button>
+          Close
+        </button>
+      </div>
+    </div>  
+  </div>
+  </body>
+</html>
