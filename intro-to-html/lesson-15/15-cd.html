@@ -1,0 +1,62 @@
+<!--Position: Absolute and Relative Exercises-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L15-B</title>
+
+    <style>
+      .h3 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .p {
+        margin-top: 0px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+
+  <body style="height: 3000px;">
+    <h3>Position: Absolute and Relative Exercises<br>Lesson 15-C&D</h3>
+    <p>
+      c. Take the Close Button from the previous exercise and place it at the top left corner of the "div".
+      <br>d. Imagine exercise 15c is a video ad in the bottom-right corner. Add a timestamp. 
+    </p>
+    <div style="
+      position: fixed;
+      background-color: gray;
+      width: 320px;
+      height: 180px;
+      bottom: 10px;
+      right: 10px;
+      border: none;
+    ">
+      <button style="
+        position: absolute;
+        top: -20px;
+        left:-15px;
+        background-color: black;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+        font-size: 25px;"
+      >X</button>
+
+      <div style="
+        position: absolute;
+        background-color: black;
+        color: white;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        border-radius: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-align: center;
+      ">0:29</div>
+    </div>
+  </body>
+</html>
