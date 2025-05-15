@@ -8,6 +8,13 @@
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.video-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .video-info-grid {
@@ -15,13 +22,60 @@
   grid-template-columns: 50px 1fr;
 }
 
+.profile-picture-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-picture-container .channel-tooltip {
+  position: absolute;
+  top: 50px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255);
+  color: white;
+  border-radius: 6px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+  opacity: 1;
+}
+
+.channel-tooltip-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.channel-tooltip-name {
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  white-space: nowrap;
+  margin-bottom: 4px;
+}
+
+.channel-tooltip-subscribers {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  white-space: nowrap;
+}
+
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50%;
 }
 
 .thumbnail-row {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -29,6 +83,11 @@
 .video-stats {
   font-size: 12px;
   color: rgb(96, 96, 96);
+}
+
+.channel-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .video-author {
@@ -46,12 +105,13 @@
   font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
-  padding: 4px 4px;
+  padding: 4px;
   border-radius: 2px;
+  border: none;
   position: absolute;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.9);
   color: white;
-  bottom: 8px;
-  right: 5px;
+  bottom: 11px;
+  right: 4px;
 
 }
