@@ -5,6 +5,8 @@ This is a personal learning experience for HTML/CSS, guided by the 6-hour long c
 
 There are 15+ lessons each with challenges and practices, which are published here as a cloud resource.
 
+<img src="youtube-clone-preview.png">
+
 The YouTube Clone project was <u>started</u> on **Feburary 16, 2025** and accomplished <u>completion</u> on **May 16, 2025**. This clone has more functionality, including small bits of JavaScript than the video due to having more inspiration.
 
 ## Steps to Reproduce
